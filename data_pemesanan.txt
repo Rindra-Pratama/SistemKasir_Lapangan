@@ -1,0 +1,13 @@
+
+Nama           : rindra
+Hari           : senin
+Jam waktu main : 12.00
+Lama booking   : 3 jam
+Total bayar    : 300000
+=================
+Nama           : ropek
+Hari           : selasa
+Jam waktu main : jam
+Lama booking   : 2 jam
+Total bayar    : 300000
+=================
