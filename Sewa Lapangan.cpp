@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <cstdlib> // Untuk menggunakan system("cls")
+#include <cstdlib> 
 
 using namespace std;
 
@@ -16,7 +16,7 @@ void inputData(string &nama, string &hari, int &lama_sewa, string &booking) {
 }
 
 void simpanData(string nama, string hari, int lama_sewa, string booking, int total_bayar) {
-    ofstream file("data_pemesanan.txt" , ios::app); // Membuka file untuk menambahkan data (append)
+    ofstream file("data_pemesanan.txt" , ios::app); // Membuka file untuk menambahkan data 
     if (file.is_open()) {
         file << "Nama           : " << nama << endl;
         file << "Hari           : " << hari << endl;
